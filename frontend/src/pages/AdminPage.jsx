@@ -4,7 +4,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
 
-const REACT_APP_URL = "https://weather-telegram-bot-backend.vercel.app/"
+const REACT_APP_URL = "https://weather-telegram-bot-backend.vercel.app"
 
 const AdminPage = () => {
 
