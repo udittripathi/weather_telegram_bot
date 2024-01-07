@@ -28,9 +28,13 @@ const AdminPage = () => {
 const Dashboard = () => {
 
     const [users, setUsers] = useState([]);
+        axios.defaults.withCredentials = true;
     const [stats, setStats] = useState([]);
+        axios.defaults.withCredentials = true;
     const [subscribers, setSubscribers] = useState([]);
+        axios.defaults.withCredentials = true;
     const [usage, setUsage] = useState([]);
+        axios.defaults.withCredentials = true;
     const [blockedUsers, setBlockedUsers] = useState([]);
         axios.defaults.withCredentials = true;
 
