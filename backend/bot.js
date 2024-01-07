@@ -42,7 +42,13 @@ mongoose.connect(MONGO_URI, {
 const app = express();
 
 // configure cors
-app.use(cors());
+app.use(cors(
+    {
+        origin: [""],
+        methods: ["POST", "GET", "PUT"],
+        credentials: true
+    }
+));
 
 // configure body-parser
 app.use(bodyParser.json());
