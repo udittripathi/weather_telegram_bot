@@ -44,7 +44,7 @@ const app = express();
 // configure cors
 app.use(cors(
     {
-        origin: [""],
+        origin: ["https://weather-telegram-bot-frontend.vercel.app"],
         methods: ["POST", "GET", "PUT"],
         credentials: true
     }
