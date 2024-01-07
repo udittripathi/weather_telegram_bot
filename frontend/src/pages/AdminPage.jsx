@@ -534,9 +534,9 @@ const LoginForm = (props) => {
 
     const checkLogin = async (e) => {
         e.preventDefault();
-        console.log("Username : ", username);
-        console.log("Password : ", password);
-         console.log("Admin Auth : ", REACT_APP_URL);
+        //console.log("Username : ", username);
+        //console.log("Password : ", password);
+        // console.log("Admin Auth : ", REACT_APP_URL);
         axios.get(REACT_APP_URL + 'admin/all', {
             username: username,
             password: password
