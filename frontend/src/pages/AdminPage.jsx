@@ -13,6 +13,7 @@ const AdminPage = () => {
 
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
+    axios.defaults.withCredentials = true;
 
 
     if (authenticated) {
