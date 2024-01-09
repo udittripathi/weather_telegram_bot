@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 // Define the Schema for the BotKey model
 const BotKeySchema = new mongoose.Schema({
-    botkey: {
+    key: {
         type: String,
         required: true,
         unique: true
